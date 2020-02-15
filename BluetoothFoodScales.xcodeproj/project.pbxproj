@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A7231523F0C75D007E8706 /* PerhiperalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7231423F0C75D007E8706 /* PerhiperalTableViewCell.swift */; };
+		F2B1A0FD23F0B61500CAF1FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A0FC23F0B61500CAF1FB /* AppDelegate.swift */; };
+		F2B1A0FF23F0B61500CAF1FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A0FE23F0B61500CAF1FB /* SceneDelegate.swift */; };
+		F2B1A10123F0B61500CAF1FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A10023F0B61500CAF1FB /* ViewController.swift */; };
+		F2B1A10423F0B61500CAF1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B1A10223F0B61500CAF1FB /* Main.storyboard */; };
+		F2B1A10623F0B61700CAF1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B1A10523F0B61700CAF1FB /* Assets.xcassets */; };
+		F2B1A10923F0B61700CAF1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B1A10723F0B61700CAF1FB /* LaunchScreen.storyboard */; };
+		F2B1A11423F0B61700CAF1FB /* BluetoothHeartRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A11323F0B61700CAF1FB /* BluetoothHeartRateTests.swift */; };
+		F2B1A11F23F0B61700CAF1FB /* BluetoothHeartRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1A11E23F0B61700CAF1FB /* BluetoothHeartRateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B1A11023F0B61700CAF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B1A0F123F0B61500CAF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B1A0F823F0B61500CAF1FB;
+			remoteInfo = BluetoothHeartRate;
+		};
+		F2B1A11B23F0B61700CAF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B1A0F123F0B61500CAF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B1A0F823F0B61500CAF1FB;
+			remoteInfo = BluetoothHeartRate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2A7231423F0C75D007E8706 /* PerhiperalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerhiperalTableViewCell.swift; sourceTree = "<group>"; };
+		F2B1A0F923F0B61500CAF1FB /* BluetoothSalterScales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothSalterScales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B1A0FC23F0B61500CAF1FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B1A0FE23F0B61500CAF1FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2B1A10023F0B61500CAF1FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B1A10323F0B61500CAF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2B1A10523F0B61700CAF1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B1A10823F0B61700CAF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2B1A10A23F0B61700CAF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B1A10F23F0B61700CAF1FB /* BluetoothFoodScalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothFoodScalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B1A11323F0B61700CAF1FB /* BluetoothHeartRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothHeartRateTests.swift; sourceTree = "<group>"; };
+		F2B1A11523F0B61700CAF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B1A11A23F0B61700CAF1FB /* BluetoothFoodScalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothFoodScalesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B1A11E23F0B61700CAF1FB /* BluetoothHeartRateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothHeartRateUITests.swift; sourceTree = "<group>"; };
+		F2B1A12023F0B61700CAF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B1A0F623F0B61500CAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A10C23F0B61700CAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A11723F0B61700CAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A7231623F0C762007E8706 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7231423F0C75D007E8706 /* PerhiperalTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2B1A0F023F0B61500CAF1FB = {
+			isa = PBXGroup;
+			children = (
+				F2B1A0FB23F0B61500CAF1FB /* BluetoothHeartRate */,
+				F2B1A11223F0B61700CAF1FB /* BluetoothFoodScalesTests */,
+				F2B1A11D23F0B61700CAF1FB /* BluetoothFoodScalesUITests */,
+				F2B1A0FA23F0B61500CAF1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B1A0FA23F0B61500CAF1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1A0F923F0B61500CAF1FB /* BluetoothSalterScales.app */,
+				F2B1A10F23F0B61700CAF1FB /* BluetoothFoodScalesTests.xctest */,
+				F2B1A11A23F0B61700CAF1FB /* BluetoothFoodScalesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B1A0FB23F0B61500CAF1FB /* BluetoothHeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7231623F0C762007E8706 /* Views */,
+				F2B1A0FC23F0B61500CAF1FB /* AppDelegate.swift */,
+				F2B1A0FE23F0B61500CAF1FB /* SceneDelegate.swift */,
+				F2B1A10023F0B61500CAF1FB /* ViewController.swift */,
+				F2B1A10223F0B61500CAF1FB /* Main.storyboard */,
+				F2B1A10523F0B61700CAF1FB /* Assets.xcassets */,
+				F2B1A10723F0B61700CAF1FB /* LaunchScreen.storyboard */,
+				F2B1A10A23F0B61700CAF1FB /* Info.plist */,
+			);
+			path = BluetoothHeartRate;
+			sourceTree = "<group>";
+		};
+		F2B1A11223F0B61700CAF1FB /* BluetoothFoodScalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1A11323F0B61700CAF1FB /* BluetoothHeartRateTests.swift */,
+				F2B1A11523F0B61700CAF1FB /* Info.plist */,
+			);
+			path = BluetoothFoodScalesTests;
+			sourceTree = "<group>";
+		};
+		F2B1A11D23F0B61700CAF1FB /* BluetoothFoodScalesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1A11E23F0B61700CAF1FB /* BluetoothHeartRateUITests.swift */,
+				F2B1A12023F0B61700CAF1FB /* Info.plist */,
+			);
+			path = BluetoothFoodScalesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B1A0F823F0B61500CAF1FB /* BluetoothFoodScales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B1A12323F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScales" */;
+			buildPhases = (
+				F2B1A0F523F0B61500CAF1FB /* Sources */,
+				F2B1A0F623F0B61500CAF1FB /* Frameworks */,
+				F2B1A0F723F0B61500CAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothFoodScales;
+			productName = BluetoothHeartRate;
+			productReference = F2B1A0F923F0B61500CAF1FB /* BluetoothSalterScales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B1A10E23F0B61700CAF1FB /* BluetoothFoodScalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B1A12623F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScalesTests" */;
+			buildPhases = (
+				F2B1A10B23F0B61700CAF1FB /* Sources */,
+				F2B1A10C23F0B61700CAF1FB /* Frameworks */,
+				F2B1A10D23F0B61700CAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B1A11123F0B61700CAF1FB /* PBXTargetDependency */,
+			);
+			name = BluetoothFoodScalesTests;
+			productName = BluetoothHeartRateTests;
+			productReference = F2B1A10F23F0B61700CAF1FB /* BluetoothFoodScalesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B1A11923F0B61700CAF1FB /* BluetoothFoodScalesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B1A12923F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScalesUITests" */;
+			buildPhases = (
+				F2B1A11623F0B61700CAF1FB /* Sources */,
+				F2B1A11723F0B61700CAF1FB /* Frameworks */,
+				F2B1A11823F0B61700CAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B1A11C23F0B61700CAF1FB /* PBXTargetDependency */,
+			);
+			name = BluetoothFoodScalesUITests;
+			productName = BluetoothHeartRateUITests;
+			productReference = F2B1A11A23F0B61700CAF1FB /* BluetoothFoodScalesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B1A0F123F0B61500CAF1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tom Bastable";
+				TargetAttributes = {
+					F2B1A0F823F0B61500CAF1FB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F2B1A10E23F0B61700CAF1FB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F2B1A0F823F0B61500CAF1FB;
+					};
+					F2B1A11923F0B61700CAF1FB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F2B1A0F823F0B61500CAF1FB;
+					};
+				};
+			};
+			buildConfigurationList = F2B1A0F423F0B61500CAF1FB /* Build configuration list for PBXProject "BluetoothFoodScales" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B1A0F023F0B61500CAF1FB;
+			productRefGroup = F2B1A0FA23F0B61500CAF1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B1A0F823F0B61500CAF1FB /* BluetoothFoodScales */,
+				F2B1A10E23F0B61700CAF1FB /* BluetoothFoodScalesTests */,
+				F2B1A11923F0B61700CAF1FB /* BluetoothFoodScalesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B1A0F723F0B61500CAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B1A10923F0B61700CAF1FB /* LaunchScreen.storyboard in Resources */,
+				F2B1A10623F0B61700CAF1FB /* Assets.xcassets in Resources */,
+				F2B1A10423F0B61500CAF1FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A10D23F0B61700CAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A11823F0B61700CAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B1A0F523F0B61500CAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B1A10123F0B61500CAF1FB /* ViewController.swift in Sources */,
+				F2B1A0FD23F0B61500CAF1FB /* AppDelegate.swift in Sources */,
+				F2B1A0FF23F0B61500CAF1FB /* SceneDelegate.swift in Sources */,
+				F2A7231523F0C75D007E8706 /* PerhiperalTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A10B23F0B61700CAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B1A11423F0B61700CAF1FB /* BluetoothHeartRateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B1A11623F0B61700CAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B1A11F23F0B61700CAF1FB /* BluetoothHeartRateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B1A11123F0B61700CAF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B1A0F823F0B61500CAF1FB /* BluetoothFoodScales */;
+			targetProxy = F2B1A11023F0B61700CAF1FB /* PBXContainerItemProxy */;
+		};
+		F2B1A11C23F0B61700CAF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B1A0F823F0B61500CAF1FB /* BluetoothFoodScales */;
+			targetProxy = F2B1A11B23F0B61700CAF1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2B1A10223F0B61500CAF1FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B1A10323F0B61500CAF1FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2B1A10723F0B61700CAF1FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B1A10823F0B61700CAF1FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B1A12123F0B61700CAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B1A12223F0B61700CAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B1A12423F0B61700CAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothSalterScales;
+				PRODUCT_NAME = BluetoothSalterScales;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B1A12523F0B61700CAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothSalterScales;
+				PRODUCT_NAME = BluetoothSalterScales;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2B1A12723F0B61700CAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothHeartRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothFoodScales.app/BluetoothFoodScales";
+			};
+			name = Debug;
+		};
+		F2B1A12823F0B61700CAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothHeartRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothFoodScales.app/BluetoothFoodScales";
+			};
+			name = Release;
+		};
+		F2B1A12A23F0B61700CAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothHeartRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothHeartRate;
+			};
+			name = Debug;
+		};
+		F2B1A12B23F0B61700CAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947BDAE7U7;
+				INFOPLIST_FILE = BluetoothHeartRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedhair.BluetoothHeartRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothHeartRate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B1A0F423F0B61500CAF1FB /* Build configuration list for PBXProject "BluetoothFoodScales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B1A12123F0B61700CAF1FB /* Debug */,
+				F2B1A12223F0B61700CAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B1A12323F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B1A12423F0B61700CAF1FB /* Debug */,
+				F2B1A12523F0B61700CAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B1A12623F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B1A12723F0B61700CAF1FB /* Debug */,
+				F2B1A12823F0B61700CAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B1A12923F0B61700CAF1FB /* Build configuration list for PBXNativeTarget "BluetoothFoodScalesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B1A12A23F0B61700CAF1FB /* Debug */,
+				F2B1A12B23F0B61700CAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B1A0F123F0B61500CAF1FB /* Project object */;
+}
