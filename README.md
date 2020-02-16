@@ -33,7 +33,7 @@ Initially I tried writing 0 to the 6th byte of the weight characteristic, taking
 
 I then tried looking for descriptors or anything that would give me any clue how to approach this - unfortunately Salter made all characteristics non-descript. 
 
-Hitting a bit of a dead end I decided to see if I could monitor the data that is sent via bluetooth. While it looked like it would be almost impossible via an IPA / Sim it looked potentially possible via an APK running in a sim. After a few hours of tinkering, I managed to find that the data being written was as below:
+Hitting a bit of a dead end I decided to see if I could monitor the data that is sent via bluetooth through the Salter Cook app that connects to the scales. While it looked like it would be almost impossible via an IPA / Sim it looked potentially possible via an APK running in a sim. After a few hours of tinkering, I managed to find that the data being written was as below:
 
 [9,3,5]
 
