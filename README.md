@@ -27,6 +27,20 @@ I was aware that UInt8 values are limited to a max of 256 - so I immediately mul
 
 So that's the weight dealt with...however figuring out how to zero the scales was an entirely different issue. 
 
-# Working out the Zero Function
+## Working out the Zero Function
+
+Initially I tried writing 0 to the 6th byte of the weight characteristic, taking the data from the other characteristics, changing each byte to 0 and writing it back - but none of these worked or made any change. 
+
+I then tried looking for descriptors or anything that would give me any clue how to approach this - unfortunately Salter made all characteristics non-descript. 
+
+Hitting a bit of a dead end I decided to see if I could monitor the data that is sent via bluetooth. While it looked like it would be almost impossible via an IPA / Sim it looked potentially possible via an APK running in a sim. After a few hours of tinkering, I managed to find that the data being written was as below:
+
+[9,3,5]
+
+This data didn't change no matter the metric, weight or how many times I pressed zero in the APK. So this must be the key! I didn't know which characteristic it was writing to, but with only 4 characteristics it wouldn't be hard to try each one until I got a result. After putting together a quick loop and writing [9,3,5] to each, it worked after writing to the FFE3 characteristic! Quite a long way to go about it, but unfortunately without any documentation you have to get a bit creative!
+
+## Conclusion:
+
+The challenge of figuring out how to work the zero functionality really made this project feel worthwhile. Now that this project is complete, any fitness or dieting app can now easily add functionality to connect to the only Bluetooth Food Scales on the market - which wasn't immediately possible before.
 
 ![](ezgif-6-3e4dc5693668.gif)
